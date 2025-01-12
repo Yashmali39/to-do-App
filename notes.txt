@@ -1,0 +1,34 @@
+#IMPORTANT QUESTIONS :- 
+1.why use react:- 1. it will boost speed of development
+2.why use hook :- using it we can access state management functionality provided by react
+3.to stop event bubbeling use e.stop.propagation  
+
+#IMP ABOUT USEREFF
+1. when state variable changes then re-render happens
+2. when ref variable changes no re-render happens
+#USECALLBACK
+in this if inside React.memo -> wrap -> component -> component re-render tabhi hoga jab props change hoga nahi toh nahi hoga
+if you are sending a function in component then React.memo can't save from Re-rendering
+#USECALLBACK is important to handle expensive opeations
+#REDUX TOOL-KIT
+TERMS USED :- Action, Reducer, Slice, Store, State
+Action :- It is event only or addition of event + additional info.(it is just an object only) 
+Slice :- we can create slice for particular feature in we need state management
+Reducer :- are just function using which we can update or change data as per our logic.
+Store :- single source of truth
+State :- data
+to use REDUX
+steps :- 
+1. create Store
+2. wrap app component under provider
+3. create Slice
+4. register reducer in Store
+#state se koi bhi data orvalue ko fetch or use karne ke liye useSelector hook ka use karna padta hai
+#Action ko execute karane ke liye use dispatch karna padta hai use dispatch karane ke liye useDispatch hook ka use karna padta hai
+asyncThunk search it in REDUX documentation and read it 
+
+#PROJECT 1 PASTE APP 
+To create a toast go to "reacthot toaste" documentation 
+to set date install "date-fns" 
+then using its "format" function we can format date
+can use inbuilt functionality by installing "react-icons" to set use icons
